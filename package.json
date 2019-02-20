@@ -12,8 +12,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "index.js",
-  "dependencies": {
-    "nuxt_topmind": "https://github.com/severgroup-tt/nuxt_topmind"
-  }
+  "main": "index.js"
 }
