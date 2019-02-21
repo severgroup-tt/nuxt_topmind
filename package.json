@@ -1,0 +1,16 @@
+{
+  "name": "nuxt_topmind",
+  "description": "TopMind Analytics Module for Nuxt.js",
+  "version": "0.4.1",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Alex Matveev <a.matveev@talenttech.ru>"
+    }
+  ],
+  "repository": "https://github.com/severgroup-tt/nuxt_topmind",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js"
+}
