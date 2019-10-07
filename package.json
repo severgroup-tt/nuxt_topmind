@@ -1,7 +1,7 @@
 {
   "name": "nuxt_topmind",
   "description": "TopMind Analytics Module for Nuxt.js",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "license": "MIT",
   "contributors": [
     {

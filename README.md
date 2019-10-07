@@ -14,7 +14,8 @@ You can set environment variable `NODE_ENV` to `production` for testing in dev m
   modules: [
     // Simple usage
     ['nuxt_topmind', {
-      id: XXXX,
+      clientId: XXXX,
+      trackerId: XXXX,
       trackPathChange: true
     }]
  ]
@@ -30,7 +31,8 @@ Or using top level options
     'nuxt_topmind'
   ],
   topmind: {
-    id: XXXX,
+    clientId: XXXX,
+    trackerId: XXXX,
     trackPathChange: true
   }
 }
@@ -46,8 +48,11 @@ For more information:
 - [Documetation for TopMind Analytics](https://burning-heart.atlassian.net/wiki/spaces/TOP/pages/632029187)
 
 
-### `id`
-- TopMind ID. **Required!**
+### `clientId`
+- TopMind client ID. **Required!**
+
+### `trackerId`
+- TopMind trackerId. **Required!**
 
 ### `trackPathChange`
 - If true, TopMind module automatically sends `pageview` event. 

@@ -11,7 +11,7 @@ module.exports = function topMind(moduleOptions) {
   }
 
   this.options.head.script.push({
-    src: 'https://topmind.talenttechlab.org/static/tracker.js',
+    src: 'https://topmind.talenttechlab.org/static/tracker.min.js',
     async: true,
   });
 
@@ -19,8 +19,11 @@ module.exports = function topMind(moduleOptions) {
   const options = Object.assign({}, defaultOptions, this.options.topmind, moduleOptions);
 
   // Verify options
-  if (!options.id) {
-    throw new Error('TopMind module must have \'id\' option!');
+  if (!options.clientId) {
+    throw new Error('TopMind module must have \'clientId\' option!');
+  }
+  if (!options.trackerId) {
+    throw new Error('TopMind module must have \'trackerId\' option!');
   }
 
   // Register plugin
