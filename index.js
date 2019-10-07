@@ -11,7 +11,7 @@ module.exports = function topMind(moduleOptions) {
   }
 
   this.options.head.script.push({
-    src: 'https://topmind.talenttechlab.org/static/tracker.min.js',
+    src: 'https://topmind.talenttechlab.org/static/tracker.js',
     async: true,
   });
 
